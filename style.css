@@ -4,3 +4,13 @@
     color: white;
     text-align: center;
 }
+#loginform{
+margin-left: 50%;
+}
+#contactform{
+    margin-left: 20%;
+    display: flex;
+    }
+    #contactform form{
+    margin-left: 80px;
+    }
