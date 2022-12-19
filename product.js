@@ -20,7 +20,7 @@ function show_products(list){
         let button=document.createElement('button');
         button.innerHTML='Add to cart';
         div.appendChild(img);
-        div.appendChild(h2);
+        div.appendChild(h4);
         div.appendChild(p);
         div.appendChild(button);
         products.appendChild(div);
