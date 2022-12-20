@@ -1,3 +1,4 @@
+header('header');
 function footer(id){
     let table
     let footer = document.getElementById(id);
@@ -9,4 +10,5 @@ div.appendChild(hr);
 div.appendChild(p);
 footer.appendChild(div);
 }
+
 

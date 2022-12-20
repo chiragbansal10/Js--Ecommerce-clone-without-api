@@ -1,6 +1,7 @@
+function header(id){
 
-
-const product_service=document.querySelectorAll('.product_service')
+// const product_service=document.querySelectorAll('.product_service')
+const product_service=document.querySelectorAll(id)
 console.log(product_service)
 for(let i of product_service)
 {
@@ -13,4 +14,5 @@ for(let i of product_service)
       
         
     })
+}
 }
