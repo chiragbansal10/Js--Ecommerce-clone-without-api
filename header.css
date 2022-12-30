@@ -1,4 +1,4 @@
-*{
+ *{
     padding: 0;
     margin: 0;
 }
@@ -81,4 +81,27 @@ position: absolute;
 ul>li{
     padding: 4px 10px;
     cursor: pointer;
+} 
+nav{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    
+    
 }
+header{
+    height: 60px;
+    background-color: black;
+}
+nav #login_bucket{
+   margin-left: 520px;
+}
+ecommerce{
+    padding-top: 0px;
+}
+nav #bucket{
+    margin-left: 20px;
+ }
+ nav #search{
+    align-self: right;
+ }
