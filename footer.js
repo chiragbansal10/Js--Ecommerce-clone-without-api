@@ -1,7 +1,8 @@
 header('header');
-function footer(id){
-    let table
-    let footer = document.getElementById(id);
+footer()
+function footer(){
+    
+   // let footer = document.getElementById(id);
 let div=document.createElement('div');
 let hr=document.createElement('hr');
 let p=document.createElement('p');
