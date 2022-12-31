@@ -1,9 +1,10 @@
 .footerBar{
     display: flex;
 justify-content:space-around;
-
+background-color: black;
 }
 ul
 {
     list-style-type: none;
+    padding-left: 0px;
 }
