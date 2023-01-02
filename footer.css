@@ -8,3 +8,21 @@ ul
     list-style-type: none;
     padding-left: 0px;
 }
+#footer{
+    background-color: black;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.servicebar{
+    color: white;
+}
+#copyright{
+    text-align: center;
+}
+/* .footerBar{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+} */

@@ -4,7 +4,7 @@ function footer() {
   const footer = document.getElementById("footer");
 
   const footerbar = document.createElement("div");
-  footerbar.className = "footerbar";
+  footerbar.className = "footerBar";
   footer.appendChild(footerbar);
 
   const servicebar = document.createElement("div");
@@ -115,10 +115,7 @@ function footer() {
   const hr = document.createElement("hr");
   footer.appendChild(hr);
   const copyright = document.createElement("div");
+  copyright.id="copyright"
   copyright.innerHTML = "copyright @Ecommerce 2022-23";
   footer.appendChild(copyright);
-
-  div.appendChild(hr);
-  div.appendChild(p);
-  footer.appendChild(div);
 }
