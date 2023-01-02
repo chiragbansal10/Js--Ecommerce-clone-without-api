@@ -21,6 +21,7 @@ function footer() {
   product_servicebar.appendChild(hide_sub_nav_bar);
 
   const unlist = document.createElement("ul");
+  unlist.classList="footer_padd"
   hide_sub_nav_bar.appendChild(unlist);
 
   const multiple_list = document.createElement("div");
@@ -28,14 +29,17 @@ function footer() {
   unlist.appendChild(multiple_list);
 
   const dresses = document.createElement("li");
+  dresses.classList="footer_padd"
   dresses.innerHTML = "Dresses";
   unlist.appendChild(dresses);
 
   const pants = document.createElement("li");
+  pants.classList="footer_padd"
   pants.innerHTML = "Pants";
   unlist.appendChild(pants);
 
   const skirts = document.createElement("li");
+  skirts.classList="footer_padd"
   skirts.innerHTML = "Skirts";
   unlist.appendChild(skirts);
 
@@ -53,6 +57,7 @@ function footer() {
   product_servicebar1.appendChild(hide_sub_nav_bar1);
 
   const unlist1 = document.createElement("ul");
+  unlist1.classList="footer_padd"
   hide_sub_nav_bar1.appendChild(unlist1);
 
   const multiple_list1 = document.createElement("div");
@@ -60,14 +65,17 @@ function footer() {
   unlist1.appendChild(multiple_list1);
 
   const shirts1 = document.createElement("li");
+  shirts1.classList="footer_padd"
   shirts1.innerHTML = "Shirts";
   unlist1.appendChild(shirts1);
 
   const pants1 = document.createElement("li");
+  pants1.classList="footer_padd"
   pants1.innerHTML = "Pants";
   unlist1.appendChild(pants1);
 
   const hoodies = document.createElement("li");
+  hoodies.classList="footer_padd"
   hoodies.innerHTML = "Hoodies";
   unlist1.appendChild(hoodies);
 
@@ -94,6 +102,7 @@ function footer() {
   servicebar3.appendChild(hide_sub_nav_bar2);
 
   const unlist2 = document.createElement("ul");
+  unlist2.classList="footer_padd"
   hide_sub_nav_bar2.appendChild(unlist2);
 
   const multiple_list2 = document.createElement("div");
@@ -101,14 +110,17 @@ function footer() {
   unlist2.appendChild(multiple_list2);
 
   const home = document.createElement("li");
+  home.classList="footer_padd"
   home.innerHTML = "Home";
   unlist2.appendChild(home);
 
   const login = document.createElement("li");
+  login.classList="footer_padd"
   login.innerHTML = "Login";
   unlist2.appendChild(login);
 
   const contact = document.createElement("li");
+  contact.classList="footer_padd"
   contact.innerHTML = "Contact";
   unlist2.appendChild(contact);
 

@@ -3,7 +3,7 @@
 justify-content:space-around;
 background-color: black;
 }
-ul
+.footer_padd
 {
     list-style-type: none;
     padding-left: 0px;
@@ -21,8 +21,3 @@ ul
 #copyright{
     text-align: center;
 }
-/* .footerBar{
-    position: relative;
-    bottom: 0;
-    width: 100%;
-} */
