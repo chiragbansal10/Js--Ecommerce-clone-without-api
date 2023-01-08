@@ -74,16 +74,15 @@ align-items: center;
 ul{
     list-style-type: none;
 }
-/* div>ul{
-    background-color: #F2F2F2;
-    padding: 5px 35px 5px 5px;
-    border: .1px solid black;
-    border-radius: 2px;
-position: absolute;
-} */
 ul>li{
     padding: 4px 10px;
     cursor: pointer;
 } 
-
+div>.multiple_list{
+    background-color: #F2F2F2;
+    padding: 5px 35px 5px 5px;
+    border: .1px solid black;
+    border-radius: 2px;
+    position: absolute;
+  }
 
