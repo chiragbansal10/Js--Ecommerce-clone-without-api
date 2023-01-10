@@ -50,3 +50,6 @@ const loginButton = document.createElement("input");
 loginButton.id = "Login";
 loginButton.type = "button";
 form.appendChild(loginButton);
+
+logiUi=document.getElementById("logiUi")
+logiUi.appendChild(loginform)

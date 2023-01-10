@@ -4,3 +4,6 @@
 #email{
     width: 380px;
 }
+div>label{
+font-weight: bold;
+}

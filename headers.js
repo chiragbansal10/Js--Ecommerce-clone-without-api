@@ -27,15 +27,18 @@ function header() {
 
   login_bucket_div.className = "login_bucket";
 
-  const login_button = document.createElement("button");
+  const login_button = document.createElement("a");
   login_button.innerHTML = "login";
-
-  const anchor=document.createElement('a')
-  anchor.href=""
+  login_button.target="_blank"
+  login_button.href="login.html"
   
-  const bucket_button = document.createElement("button");
+
+
+  const bucket_button = document.createElement("a");
 
   bucket_button.innerHTML = "Bucket";
+  bucket_button.target="_blank"
+  bucket_button.href=""
 
   login_bucket_div.appendChild(login_button);
   login_bucket_div.appendChild(bucket_button);
