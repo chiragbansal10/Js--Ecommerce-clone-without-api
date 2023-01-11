@@ -29,16 +29,15 @@ function header() {
 
   const login_button = document.createElement("a");
   login_button.innerHTML = "login";
-  login_button.target="_blank"
-  login_button.href="login.html"
-  
-
+  login_button.target = "_blank";
+  login_button.href = "login.html";
+  login_button.id = "login_button";
 
   const bucket_button = document.createElement("a");
-
+  bucket_button.id = "login_button";
   bucket_button.innerHTML = "Bucket";
-  bucket_button.target="_blank"
-  bucket_button.href=""
+  bucket_button.target = "_blank";
+  bucket_button.href = "";
 
   login_bucket_div.appendChild(login_button);
   login_bucket_div.appendChild(bucket_button);
@@ -162,9 +161,11 @@ function header() {
   const product_null4 = document.createElement("div");
   service.appendChild(product_null4);
 
-  const product_service6 = document.createElement("div");
+  const product_service6 = document.createElement("a");
   product_service6.classList = "product_service";
   product_service6.innerHTML = "Contact";
+  product_service6.href = "contact.html";
+  product_service6.id = "contact";
   product_null4.appendChild(product_service6);
 
   const hide_sub_nav4 = document.createElement("div");

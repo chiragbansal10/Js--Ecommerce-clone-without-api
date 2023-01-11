@@ -3,62 +3,83 @@ contactForm.id = "contactForm";
 
 const contactFormImg = document.createElement("img");
 contactFormImg.src = "Capture.PNG";
-contactForm.appendChild(contactFormImg)
+contactForm.appendChild(contactFormImg);
 
 const formaction = document.createElement("form");
-
 
 const formH1 = document.createElement("h1");
 formaction.appendChild(formH1);
 
+const nameDiv = document.createElement("div");
+formaction.appendChild(nameDiv);
+
+const nameDivlabel = document.createElement("div");
+nameDiv.appendChild(nameDivlabel);
+
 const formLabel = document.createElement("label");
 formLabel.innerText = "Name:";
-formaction.appendChild(formLabel);
+nameDivlabel.appendChild(formLabel);
+
+const nameDivInput = document.createElement("div");
+nameDiv.appendChild(nameDivInput);
 
 const formInput = document.createElement("input");
 formInput.type = "text";
 formInput.id = "name";
-formaction.appendChild(formInput);
+nameDivInput.appendChild(formInput);
 
-const formInputBr = document.createElement("br");
-formaction.appendChild(formInputBr);
+const emailDiv = document.createElement("div");
+formaction.appendChild(emailDiv);
 
-const formInputBr1 = document.createElement("br");
-formaction.appendChild(formInputBr1);
+const emailDivlabel = document.createElement("div");
+nameDiv.appendChild(emailDivlabel);
+
+// const formInputBr = document.createElement("br");
+// formaction.appendChild(formInputBr);
+
+// const formInputBr1 = document.createElement("br");
+// formaction.appendChild(formInputBr1);
 
 const formLabelEmail = document.createElement("label");
 formLabelEmail.innerText = "E-mail:";
-formaction.appendChild(formLabelEmail);
+emailDivlabel.appendChild(formLabelEmail);
 
-const formLabelEmailBr = document.createElement("br");
-formaction.appendChild(formLabelEmailBr);
+const emailDivInput = document.createElement("div");
+emailDiv.appendChild(emailDivInput);
 
 const formLabelEmailInput = document.createElement("input");
 formLabelEmailInput.type = "text";
 formLabelEmailInput.id = "email";
-formaction.appendChild(formLabelEmailInput)
+emailDivInput.appendChild(formLabelEmailInput);
 
-const formLabelEmailInputBr = document.createElement("br");
-formaction.appendChild(formLabelEmailInputBr);
+const messageDiv = document.createElement("div");
+formaction.appendChild(messageDiv);
 
-const formLabelEmailInputBr1 = document.createElement("br");
-formaction.appendChild(formLabelEmailInputBr1);
+const messageDivlabel = document.createElement("div");
+messageDiv.appendChild(messageDivlabel);
 
 const formLabelMessage = document.createElement("label");
 formLabelMessage.innerText = "Message:";
-formaction.appendChild(formLabelMessage)
+messageDivlabel.appendChild(formLabelMessage);
 
+const textareDivInput = document.createElement("div");
+messageDiv.appendChild(textareDivInput);
 
 const formLabelMessageTextearea = document.createElement("textarea");
 formLabelMessageTextearea.id = "message";
 formLabelMessageTextearea.cols = "50";
 formLabelMessageTextearea.rows = "5";
-formaction.appendChild(formLabelMessageTextearea);
+textareDivInput.appendChild(formLabelMessageTextearea);
+
+const submitDivInput = document.createElement("div");
+formaction.appendChild(submitDivInput);
 
 const formButtonSubmit = document.createElement("input");
 formButtonSubmit.type = "button";
 formButtonSubmit.value = "Submit";
 
-contact=document.getElementById("contact")
+submitDivInput.appendChild(formButtonSubmit);
+
+contact = document.getElementById("contact");
 contact.appendChild(contactForm);
-contactForm.appendChild(formaction)
+contactForm.appendChild(formaction);
